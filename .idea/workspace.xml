@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b23ce694-12ee-4d0d-93ad-3f3fe4fa5529" name="Default Changelist" comment="" />
+    <list default="true" id="b23ce694-12ee-4d0d-93ad-3f3fe4fa5529" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/param/ParamTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/staticTest/StaticTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employee/EmployeeTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +21,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="0dfb7670-9cdf-4c58-b3cd-79321aca379a" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -23,6 +36,9 @@
     </option>
   </component>
   <component name="ProjectId" id="29ChZ5OAaU7LaafsJ3PD0Uc15JH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -30,21 +46,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.kotlinCompiler" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunManager" selected="Application.CalendarTest">
-    <configuration name="BigIntegerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BigIntegerTest" />
-      <module name="java-core" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ParamTest">
     <configuration name="CalendarTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CalendarTest" />
       <module name="java-core" />
@@ -52,22 +62,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompoundInterest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CompoundInterest" />
+    <configuration name="Employee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Employee" />
       <module name="java-core" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InputTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InputTest" />
+    <configuration name="EmployeeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="employee.EmployeeTest" />
       <module name="java-core" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LotteryArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LotteryArray" />
+    <configuration name="ParamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="param.ParamTest" />
+      <module name="java-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="param.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StaticTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="staticTest.StaticTest" />
       <module name="java-core" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -75,11 +98,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ParamTest" />
+        <item itemvalue="Application.StaticTest" />
+        <item itemvalue="Application.Employee" />
+        <item itemvalue="Application.EmployeeTest" />
         <item itemvalue="Application.CalendarTest" />
-        <item itemvalue="Application.LotteryArray" />
-        <item itemvalue="Application.CompoundInterest" />
-        <item itemvalue="Application.BigIntegerTest" />
-        <item itemvalue="Application.InputTest" />
       </list>
     </recent_temporary>
   </component>
@@ -94,7 +117,8 @@
       <option name="presentableId" value="Default" />
       <updated>1652623026632</updated>
       <workItem from="1652623028184" duration="2600000" />
-      <workItem from="1652656442216" duration="4026000" />
+      <workItem from="1652656442216" duration="7291000" />
+      <workItem from="1652741885130" duration="3461000" />
     </task>
     <servers />
   </component>
@@ -102,26 +126,38 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="181" key="#Notifications" timestamp="1652673343951">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="181" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1652673343951" />
+    <state x="765" y="213" key="#com.intellij.ide.util.MemberChooser" timestamp="1652742914771">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="213" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1652742914771" />
+    <state x="572" y="116" key="CommitChangelistDialog2" timestamp="1652673562850">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="572" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1652673562850" />
     <state x="717" y="210" key="FileChooserDialogImpl" timestamp="1652623091888">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="717" y="210" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1652623091888" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1652665595898">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1652743494158">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1652665595898" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1652665595898">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1652743494158" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1652743494157">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1652665595898" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1652665595898">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1652743494157" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1652743494157">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1652665595898" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1652665595898">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1652743494157" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1652743494158">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1652665595898" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1652743494158" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1652665595422">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -138,9 +174,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1652665595422" />
-    <state x="440" y="97" key="SettingsEditor" timestamp="1652657912924">
+    <state x="440" y="97" key="SettingsEditor" timestamp="1652673530113">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="97" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1652657912924" />
+    <state x="440" y="97" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1652673530113" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1652673565823">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1652673565823" />
+    <state x="662" y="322" key="git4idea.merge.GitPullDialog" timestamp="1652753243338">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="662" y="322" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1652753243338" />
   </component>
 </project>
